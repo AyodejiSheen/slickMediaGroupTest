@@ -75,7 +75,7 @@ export const Home = () => {
                                 return each
                             } else if (each.Title.toLowerCase().includes(search.toLowerCase())) {
                                 return each
-                            } return (<p>nos</p>);
+                            }return false;
                         }).map((each, i) => {
                             return (
                                 <div key={i} className=" bg-slate-400 rounded-lg flex-none relative">
