@@ -73,6 +73,7 @@ h3 {
 
 ::-webkit-scrollbar {
   width: .60rem;
+  display: none;  
   background-color: rgba(248, 171, 242, 0.2);
 }
 
