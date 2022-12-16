@@ -11,7 +11,7 @@ export const Home = () => {
 
     const getVideo = async () => {
         try {
-            const response = await axios.get('http://www.omdbapi.com/?i=tt3896198&apikey=ffd7d140')
+            const response = await axios.get('https://www.omdbapi.com/?i=tt3896198&apikey=ffd7d140')
             setVideo([...video, response.data])
         } catch (error) {
             console.log(error)
