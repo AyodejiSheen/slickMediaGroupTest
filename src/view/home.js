@@ -57,7 +57,7 @@ export const Home = () => {
                         }).map((each, i) => {
                             return (
                                 <div key={i} className=" bg-slate-400 rounded-lg flex-none relative">
-                                    <p className="absolute text-white bg-slate-900 bg-opacity-75 w-full py-8 text-center flex justify-center items-center text-[24px] each_video">{each.Title}</p>
+                                    <p className="absolute text-white bg-slate-900 bg-opacity-75 w-full py-8 text-center flex justify-center items-center text-lg md:text-[24px] each_video">{each.Title}</p>
                                     <img src={each.Poster} alt={each.Title} className="each_video" />
                                 </div>
                             )
@@ -79,7 +79,7 @@ export const Home = () => {
                         }).map((each, i) => {
                             return (
                                 <div key={i} className=" bg-slate-400 rounded-lg flex-none relative">
-                                    <p className="absolute text-white bg-slate-900 bg-opacity-70 w-full py-8 text-center flex justify-center items-center text-[24px] each_video">{each.Title}</p>
+                                    <p className="absolute text-white bg-slate-900 bg-opacity-70 w-full py-8 text-center flex justify-center items-center text-lg md:text-[24px] each_video">{each.Title}</p>
                                     <img src={each.Poster} alt={each.Title} className="each_video" />
                                 </div>
                             )
